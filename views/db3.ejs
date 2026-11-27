@@ -1,0 +1,17 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>日本の都道府県</title>
+</head>
+<body>
+  <h2>日本の都道府県名(関東)</h2>
+  <table>
+      <% for( let row of data ) { %>
+        ID:<%= row.id %><br>
+        都道府県コード:<%= row.code %><br>
+        都道府県名:<%= row.name %><br>
+      <% } %>
+  </table>
+</body>
+</html>
